@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
 :root{
     --color-primary:green;
     --bg-dark:#141414;
@@ -25,7 +26,9 @@
    animation: acender 0.5s forwards; 
 }
 
-
+.textoTitulo {
+     font-family: "Cascadia Code", sans-serif;
+}
 
 
 @keyframes acender {

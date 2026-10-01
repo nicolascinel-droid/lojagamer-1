@@ -20,9 +20,9 @@ const App = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="*" element={<Error />} />
         </Routes>
-
         <Footer />
       </div>
+
     </Router>
   )
 }
